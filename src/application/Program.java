@@ -7,7 +7,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		List<Object> myObjs = new ArrayList<Object>();
+		List<?> myObjs = new ArrayList<Object>();
 		List<Integer> myNumbers = new ArrayList<Integer>();
 		myObjs = myNumbers;
 		

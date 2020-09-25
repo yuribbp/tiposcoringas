@@ -13,6 +13,7 @@ public class Program {
 	}
 
 	public static void printList(List<?> list) {
+		//list.add(3); -> (Nao add a uma lista Coringa NAO SABE O TIPO - ERRO COMPILACAO)
 		for (Object obj : list) {
 			System.out.println(obj);
 		}
